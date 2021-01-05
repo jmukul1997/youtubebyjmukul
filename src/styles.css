@@ -2,3 +2,31 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.sidebar-spotify::-webkit-scrollbar {
+  width: 8px;
+  background-color: #F1F1F1;
+}
+ 
+ 
+.sidebar-spotify::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #C0C0C0;
+  
+}
+
+#button-one{
+  top: 0.2rem;
+  right: 0.3rem;
+  opacity: 0;
+}
+
+#button-two{
+  top: 2rem;
+  right: 0.3rem;
+  opacity: 0;
+}
+
+#magic:hover > #button-one  { opacity: 1; }
+#magic:hover > #button-two   { opacity: 1; }

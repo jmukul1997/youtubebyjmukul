@@ -8,16 +8,643 @@
 </head>
 <body>
  <div class="whole-page flex flex-col h-screen">
-   <div class="top bg-blue-200 h-12 flex justify-between px-5 items-center">
-     <div>one</div>
-     <div>two</div>
-     <div>three</div>
-   </div>
-   <div class="bottom bg-blue-300 flex-1 overflow-y-hidden flex">
-     <div class="flex-none w-48 left overflow-y-auto">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam quaerat, omnis quam officia tempora deserunt dolores quasi dolore placeat at exercitationem suscipit dignissimos nostrum autem sequi sunt, dolorem quia porro ut facere. Eum provident perspiciatis vel nobis quae quisquam, veritatis excepturi voluptate suscipit veniam quidem ullam incidunt eius quibusdam earum recusandae quam natus labore atque minus aperiam in adipisci totam quaerat. Totam vitae exercitationem dolor aliquam a reiciendis ut, placeat adipisci delectus temporibus dolore rem at quae necessitatibus! Voluptates dolores ab dignissimos dicta soluta aliquid at eos eaque labore vero reiciendis architecto quasi, error expedita pariatur autem voluptas consectetur ratione? Pariatur voluptatibus quod aut at ut vero velit culpa maxime ab eaque ullam nemo sed, cupiditate aperiam perspiciatis expedita, nam sit! Eaque voluptatum quaerat voluptates voluptatibus atque tempora reprehenderit at error ipsa ipsam molestias aliquid veritatis, nam nisi eum minima dolorum, dignissimos ad explicabo tempore! Perferendis beatae veritatis, eaque harum error necestiae amet quisquam magni repudiandae et aspernatur quae veritatis, minima sint alias quod accusantium consequuntur magnam quo totam a ab praesentium incidunt, libero laboriosam similique. Ratione, neque. Perspiciatis, unde corrupti veniam aut saepe maxime eaque. Reiciendis illo quis laboriosam modi, deleniti est nulla accusamus. Libero sequi animi quod, inventore accusantium delectus optio ea provident tempora culpa, omnis sint perspiciatis quo distinctio necessitatibus nesciunt molestias non fuga itaque. Aperiam ab explicabo obcaecati, veritatis libero, nostrum blanditiis maxime qui illo, alias dicta voluptate ipsa itaque ducimus.m neque vero placeat corporis blanditiis asperiores dolores similique quidem porro officiis animi maxime quaerat distinctio totam deserunt commodi? Excepturi quasi numquam sapiente! Alias sint ad dolorem doloribus iste? Distinctio, officiis voluptas. Aliquid magnam quaerat, soluta a obcaecati officia animi possimus, earum similique sunt nisi hic odio voluptates saepe, amet cupiditate ipsa illo unde omnis exercitationem quis optio quia beatae autem? Molestias consequatur maxime ipsum. Maxime rerum voluptates, nisi expedita numquam quas repudiandae deserunt vel error earum distinctio velit voluptate quibusdam beatae consectetur eligendi, laudantium architecto, nobis aspernatur accusantium a! Provident, dolorum! Quae quisquam hic, ab blanditiis consectetur sequi natus beatae quas perspiciatis, ea aliquid officiis, molestias ipsum. Maxime suscipit accusamus reiciendis saepe quod ut molestias cum rerum ad nostrum laboriosam soluta fugit molestiae incidunt, ullam itaque earum quisquam voluptate aperiam sequi eos? Recusandae iste reiciendis iure quam, exercitation.</div>
+   <div class="top bg-white h-12 flex justify-between px-5 items-center">
+     
+     <div class="flex"><!-- topbar section with leftest part -->
+       <button class="ham mr-8">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20"><title>menu</title><g fill="currentColor"><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path></g></svg>
+       </button>
+       <div class="svg w-20">
+        <svg viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" focusable="false"
+        class="style-scope ytd-topbar-logo-renderer"
+        style="pointer-events: none; display: block; width: 100%; height: 100%;">
+        <g viewBox="0 0 200 60" preserveAspectRatio="xMidYMid meet" class="style-scope ytd-topbar-logo-renderer">
+          <g class="style-scope ytd-topbar-logo-renderer">
+            <path fill="#FF0000" d="M63,14.87c-0.72-2.7-2.85-4.83-5.56-5.56C52.54,8,32.88,8,32.88,8S13.23,8,8.32,9.31
+  c-2.7,0.72-4.83,2.85-5.56,5.56C1.45,19.77,1.45,30,1.45,30s0,10.23,1.31,15.13c0.72,2.7,2.85,4.83,5.56,5.56
+  C13.23,52,32.88,52,32.88,52s19.66,0,24.56-1.31c2.7-0.72,4.83-2.85,5.56-5.56C64.31,40.23,64.31,30,64.31,30
+  S64.31,19.77,63,14.87z" class="style-scope ytd-topbar-logo-renderer"></path>
+            <polygon fill="#FFFFFF" points="26.6,39.43 42.93,30 26.6,20.57"
+              class="style-scope ytd-topbar-logo-renderer"></polygon>
+          </g>
+          <g class="style-scope ytd-topbar-logo-renderer">
+            <g id="youtube-paths" class="style-scope ytd-topbar-logo-renderer">
+              <path fill="#282828" d="M92.69,48.03c-1.24-0.84-2.13-2.14-2.65-3.91c-0.52-1.77-0.79-4.12-0.79-7.06v-4
+    c0-2.97,0.3-5.35,0.9-7.15c0.6-1.8,1.54-3.11,2.81-3.93c1.27-0.82,2.94-1.24,5.01-1.24c2.04,0,3.67,0.42,4.9,1.26
+    c1.23,0.84,2.13,2.15,2.7,3.93c0.57,1.78,0.85,4.16,0.85,7.12v4c0,2.94-0.28,5.3-0.83,7.08c-0.55,1.78-1.45,3.09-2.7,3.91
+    c-1.24,0.82-2.93,1.24-5.06,1.24C95.65,49.29,93.93,48.87,92.69,48.03z M99.66,43.71c0.34-0.9,0.52-2.37,0.52-4.4v-8.59
+    c0-1.98-0.17-3.42-0.52-4.34c-0.34-0.91-0.95-1.37-1.82-1.37c-0.84,0-1.43,0.46-1.78,1.37c-0.34,0.91-0.52,2.36-0.52,4.34v8.59
+    c0,2.04,0.16,3.51,0.49,4.4c0.33,0.9,0.93,1.35,1.8,1.35C98.71,45.06,99.31,44.61,99.66,43.71z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M188.16,37.13v1.39c0,1.77,0.05,3.09,0.16,3.98c0.1,0.88,0.32,1.53,0.65,1.93
+    c0.33,0.4,0.84,0.61,1.53,0.61c0.93,0,1.57-0.36,1.91-1.08c0.34-0.72,0.53-1.92,0.56-3.6l5.35,0.31
+    c0.03,0.24,0.04,0.57,0.04,0.99c0,2.55-0.7,4.45-2.09,5.71c-1.39,1.26-3.36,1.89-5.91,1.89c-3.06,0-5.2-0.96-6.43-2.88
+    c-1.23-1.92-1.84-4.88-1.84-8.9v-4.81c0-4.14,0.64-7.15,1.91-9.06c1.27-1.9,3.45-2.85,6.54-2.85c2.13,0,3.76,0.39,4.9,1.17
+    c1.14,0.78,1.94,1.99,2.41,3.64c0.46,1.65,0.7,3.93,0.7,6.83v4.72H188.16z M188.95,25.53c-0.31,0.39-0.52,1.03-0.63,1.91
+    c-0.11,0.88-0.16,2.23-0.16,4.02v1.98h4.54v-1.98c0-1.77-0.06-3.11-0.18-4.02c-0.12-0.91-0.34-1.56-0.65-1.93
+    c-0.31-0.37-0.8-0.56-1.46-0.56C189.75,24.94,189.26,25.14,188.95,25.53z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M77.59,36.61l-7.06-25.49h6.16l2.47,11.55c0.63,2.85,1.09,5.27,1.39,7.28h0.18
+    c0.21-1.44,0.67-3.85,1.39-7.24l2.56-11.6h6.16L83.7,36.61v12.23h-6.11V36.61z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M126.45,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+    c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+    c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H126.45z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M158.27,21.28v27.55h-4.85l-0.54-3.37h-0.13c-1.32,2.55-3.3,3.82-5.93,3.82c-1.83,0-3.18-0.6-4.05-1.8
+    c-0.87-1.2-1.3-3.07-1.3-5.62V21.28h6.2v20.23c0,1.23,0.13,2.11,0.4,2.63c0.27,0.52,0.72,0.79,1.35,0.79
+    c0.54,0,1.06-0.16,1.55-0.49c0.49-0.33,0.86-0.75,1.1-1.26V21.28H158.27z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M143.31,16.11h-6.16v32.72h-6.07V16.11h-6.16v-4.99h18.38V16.11z"
+                class="style-scope ytd-topbar-logo-renderer"></path>
+              <path fill="#282828" d="M178.8,25.69c-0.38-1.74-0.98-3-1.82-3.78c-0.84-0.78-1.99-1.17-3.46-1.17c-1.14,0-2.2,0.32-3.19,0.97
+    c-0.99,0.64-1.75,1.49-2.29,2.54h-0.05l0-14.52h-5.98v39.11h5.12l0.63-2.61h0.13c0.48,0.93,1.2,1.66,2.16,2.2
+    c0.96,0.54,2.02,0.81,3.19,0.81c2.1,0,3.64-0.97,4.63-2.9c0.99-1.93,1.48-4.95,1.48-9.06v-4.36
+    C179.36,29.84,179.17,27.43,178.8,25.69z M173.11,36.93c0,2.01-0.08,3.58-0.25,4.72c-0.16,1.14-0.44,1.95-0.83,2.43
+    c-0.39,0.48-0.91,0.72-1.57,0.72c-0.51,0-0.98-0.12-1.42-0.36c-0.43-0.24-0.79-0.6-1.06-1.08V27.71
+    c0.21-0.75,0.57-1.36,1.08-1.84c0.51-0.48,1.06-0.72,1.66-0.72c0.63,0,1.12,0.25,1.46,0.74c0.34,0.49,0.58,1.33,0.72,2.49
+    c0.13,1.17,0.2,2.83,0.2,4.99V36.93z" class="style-scope ytd-topbar-logo-renderer"></path>
+            </g>
+          </g>
+        </g>
+      </svg>
+       </div>
+     </div>
 
      
-     <div class="bg-green-400 overflow-y-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit fugit sequi quis quia esse eaque maxime amet, nostrum ipsa nisi ducimus obcaecati culpa repellendus, earum exercitationem corporis incidunt error perspiciatis eum dignissimos. Pariatur provident iure quas? Magni, voluptatum! Obcaecati minima deleniti illo ipsa perferendis! Est necessitatibus similique harum autem, quasi quis eaque in velit modi consequatur consectetur provident optio maiores iste ex suscipit soluta sapiente doloribus tempora dolor. Esse animi qui eaque deleniti natus earum beatae nostrum, eum distinctio dolor neque obcaecati repellat? Consequatur quas porro sit, recusandae nihil maiores aspernatur explicabo fugit illo natus, eligendi ipsum sapiente magnam id ipsa iste. Laborum voluptate a iste, similique dicta commodi obcaecati aliquid iusto ea. Architecto ipsum obcaecati explicabo maxime iusto corporis, atque voluptatum? Suscipit sed rerum veniam! Hic iste sed adipisci autem ipsa, ab omnis incidunt tempora ratione quis odio rerum suscipit minus sequi repellat. Vero odio magnam optio. Labore saepe quaerat adipisci harum laborum doloribus ipsum dolor eligendi repudiandae, facere praesentium distinctio autem neque sequi accusantium facilis blanditiis dolorem veritatis tempore modi. Saepe officia sequi eligendi, facilis nobis quia ipsam error harum cupiditate voluptate nihil excepturi ratione esse, et maxime? Velit nesciunt natus laudantium accusamus sed doloribus, quo expedita ipsum, at quis officiis ea laborum deserunt. Assumenda ipsam porro ad dolore eius dignissimos at officia reiciendis quos repellendus inventore placeat temporibus consectetur excepturi sed explicabo, vel, esse eveniet commodi rerum quibusdam fugit. Officiis aperiam nisi quidem. Id, magni delectus? Eaque nihil perspiciatis sed, rem cumque eius cupiditate repellat in sapiente deserunt dignissimos iusto eos distinctio voluptas commodi nobis aliquid itaque quibusdam tenetur! Quae, maiores at alias nulla eos quidem, pariatur numquam aspernatur commodi repudiandae fuga quaerat praesentium voluptas sed animi sapiente, veritatis rem quod similique veniam dolorum quo culpa? Quod dicta ducimus sequi facilis, rem sunt quisquam nisi eaque? Reprehenderit! ipsum dolor sit amet consectetur adipisicing elit. A aspernatur necessitatibus quo, laudantium in pariatur et assumenda odit consequuntur tempore vero, dignissimos repudiandae blanditiis sapiente velit itaque corporis, vitae nemo incidunt quas accusamus ad iure. Maiores autem quas nemo quibusdam, adipisci, deleniti quod velit unde consequatur voluptate quia. Natus asperiores aut, neque expedita fuga nulla dolorum incidunt labore enim officiis provident voluptate fugit voluptates dolore et hic eos molestiae dolores quaerat, est ex quo nam quas? Explicabo culpa quibusdam, esse ratione sed ad necessitatibus eveniet eius, excepturi vitae praesentium magni eos, ut quidem in at earum dolorum. Esse, nobis delectus! Necessitatibus repellendus repudiandae magni corporis ullam modi beatae atque, tenetur, ut cumque omnis error voluptatem! Quos perferendis, exercitationem enim beatae aliquid eligendi consequuntur dolor at voluptate quaerat alias ipsum qui tempora assumenda rem laborum possimus odit consequatur praesentium dolorem eveniet eaque! Explicabo eaque officiis deserunt accusantium atque nisi distinctio voluptas sunt veritatis incidunt, harum maiores ducimus facere quaerat eos illo voluptate natus. Dignissimos earum reprehenderit, nemo esse quo soluta! Similique earum nam at quos in doloremque vitae eius doloribus nulla architecto deserunt quasi reprehenderit, dicta repudiandae aliquid illum adipisci dolorum! Non eaque quibusdam amet commodi cum! In excepturi quis quaerat unde eaque corporis atque inventore ea modi aut. Eos fugiat quas exercitationem veniam corrupti eius quibusdam tenetur libero doloremque quam architecto neque reprehenderit vel omnis minima, adipisci deleniti, tempora eveniet commodi magni ratione! Consectetur officiis, sint sapiente cupiditate velit, est deleniti expedita possimus reprehenderit soluta ad earum totam tempora perspiciatis itaque beatae accusantium aperiam minus blanditiis maiores doloremque. Voluptates nobis, repellat pariatur voluptatum eligendi hic dicta tempore iusto vitae exercitationem ea rem excepturi, saepe neque debitis omnis? Necessitatibus, sed? Qui error sapiente ipsam, et magnam, praesentium reprehenderit a dolores porro voluptatem neque aut nostrum iure enim. Accusantium rem unde impedit.</div>
+     <div class="flex text-dark items-center"> <!-- topbar section with middle part  -->
+       <div><input class="w-128 px-1 border-2 border-gray-400 outline-none " type="text" placeholder="Search"></div>
+       <div class="svg px-4 py-1 bg-gray-100 rounded">
+        <svg  width="24" height="24" viewBox="0 0 24 24"><title>bx-search-alt-2</title><g fill="currentColor"><path d="M19.023 16.977a35.13 35.13 0 0 1-1.367-1.384c-.372-.378-.596-.653-.596-.653l-2.8-1.337A6.962 6.962 0 0 0 16 9c0-3.859-3.14-7-7-7S2 5.141 2 9s3.14 7 7 7c1.763 0 3.37-.66 4.603-1.739l1.337 2.8s.275.224.653.596c.387.363.896.854 1.384 1.367l1.358 1.392.604.646 2.121-2.121-.646-.604c-.379-.372-.885-.866-1.391-1.36zM9 14c-2.757 0-5-2.243-5-5s2.243-5 5-5 5 2.243 5 5-2.243 5-5 5z"></path></g></svg>
+       </div>
+      </div>
+
+
+     <div class="flex text-dark"><!-- topbar with rightest part -->
+       <button class="svg1">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><title>bxs-video-recording</title><g fill="currentColor"><path d="M18 9c0-1.103-.897-2-2-2h-1.434l-2.418-4.029A2.008 2.008 0 0 0 10.434 2H5v2h5.434l1.8 3H4c-1.103 0-2 .897-2 2v9c0 1.103.897 2 2 2h12c1.103 0 2-.897 2-2v-3l4 2v-7l-4 2V9zm-7 8H5v-2h6v2z"></path></g></svg>
+       </button>
+
+       <button class="svg2 ml-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 36 36"><title>ic_apps_36px</title><g fill="currentColor"><path d="M6 12h6V6H6v6zm9 18h6v-6h-6v6zm-9 0h6v-6H6v6zm0-9h6v-6H6v6zm9 0h6v-6h-6v6zm9-15v6h6V6h-6zm-9 6h6V6h-6v6zm9 9h6v-6h-6v6zm0 9h6v-6h-6v6z"></path></g></svg>
+       </button>
+
+       <button class="svg3 ml-3">
+        <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-bell</title><g fill="currentColor"><path d="M12 22a2.98 2.98 0 0 0 2.818-2H9.182A2.98 2.98 0 0 0 12 22zm7-7.414V10c0-3.217-2.185-5.927-5.145-6.742C13.562 2.52 12.846 2 12 2s-1.562.52-1.855 1.258C7.185 4.074 5 6.783 5 10v4.586l-1.707 1.707A.996.996 0 0 0 3 17v1a1 1 0 0 0 1 1h16a1 1 0 0 0 1-1v-1a.996.996 0 0 0-.293-.707L19 14.586z"></path></g></svg>
+       </button>
+
+       <button class="svg4 ml-5">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 48 48"><title>single-01</title><g fill="currentColor"><path fill="currentColor" d="M24,25c6.065,0,11-4.935,11-11v-2c0-6.065-4.935-11-11-11S13,5.935,13,12v2C13,20.065,17.935,25,24,25z"></path> <path d="M39.278,31.185C35.926,30.188,30.554,29,24,29s-11.926,1.188-15.278,2.185 C5.3,32.203,3,35.286,3,38.856V46c0,0.552,0.448,1,1,1h40c0.552,0,1-0.448,1-1v-7.144C45,35.286,42.7,32.203,39.278,31.185z"></path></g></svg>
+       </button>
+     </div>
+
+     
+   </div>
+   <div class="bottom bg-white flex-1 overflow-y-hidden flex">
+     <div class="flex-none w-56 left overflow-y-auto pt-3 sidebar-spotify">
+      <ul>
+
+        <li><!-- this is the first home -->
+        <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+          <div class="svg">
+            <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+          </div>
+          <div class="span ml-4">
+            <span class="text-sm font-medium text-dark">Home</span>
+          </div>
+        </a>  
+        </li>
+
+        <li><!-- this is the second home -->
+          <a href="#" class="mb-2 px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+            <div class="svg">
+              <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+            </div>
+            <div class="span ml-4">
+              <span class="text-sm font-medium text-dark">Home</span>
+            </div>
+          </a>  
+          </li>
+
+          <hr>
+
+          <li><!-- this is the first home -->
+            <a href="#" class="mt-2 px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+              <div class="svg">
+                <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+              </div>
+              <div class="span ml-4">
+                <span class="text-sm font-medium text-dark">Home</span>
+              </div>
+            </a>  
+            </li>
+
+            <li><!-- this is the first home -->
+              <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                <div class="svg">
+                  <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                </div>
+                <div class="span ml-4">
+                  <span class="text-sm font-medium text-dark">Home</span>
+                </div>
+              </a>  
+              </li>
+
+              <li><!-- this is the first home -->
+                <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                  <div class="svg">
+                    <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                  </div>
+                  <div class="span ml-4">
+                    <span class="text-sm font-medium text-dark">Home</span>
+                  </div>
+                </a>  
+                </li>
+
+                <li><!-- this is the first home -->
+                  <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                    <div class="svg">
+                      <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                    </div>
+                    <div class="span ml-4">
+                      <span class="text-sm font-medium text-dark">Home</span>
+                    </div>
+                  </a>  
+                  </li>
+
+                  <li><!-- this is the first home -->
+                    <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                      <div class="svg">
+                        <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                      </div>
+                      <div class="span ml-4">
+                        <span class="text-sm font-medium text-dark">Home</span>
+                      </div>
+                    </a>  
+                    </li>
+
+                    <li><!-- this is the first home -->
+                      <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                        <div class="svg">
+                          <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                        </div>
+                        <div class="span ml-4">
+                          <span class="text-sm font-medium text-dark">Home</span>
+                        </div>
+                      </a>  
+                      </li>
+
+                      
+                      <li><!-- this is the first home -->
+                        <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                          <div class="svg">
+                            <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                          </div>
+                          <div class="span ml-4">
+                            <span class="text-sm font-medium text-dark">Home</span>
+                          </div>
+                        </a>  
+                        </li>
+
+                      
+                        <li><!-- this is the first home -->
+                          <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                            <div class="svg">
+                              <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                            </div>
+                            <div class="span ml-4">
+                              <span class="text-sm font-medium text-dark">Home</span>
+                            </div>
+                          </a>  
+                          </li>
+
+                      
+                          <li><!-- this is the first home -->
+                            <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                              <div class="svg">
+                                <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                              </div>
+                              <div class="span ml-4">
+                                <span class="text-sm font-medium text-dark">Home</span>
+                              </div>
+                            </a>  
+                            </li>
+
+                      
+                            <li><!-- this is the first home -->
+                              <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                <div class="svg">
+                                  <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                </div>
+                                <div class="span ml-4">
+                                  <span class="text-sm font-medium text-dark">Home</span>
+                                </div>
+                              </a>  
+                              </li>
+
+                      
+                              <li><!-- this is the first home -->
+                                <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                  <div class="svg">
+                                    <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                  </div>
+                                  <div class="span ml-4">
+                                    <span class="text-sm font-medium text-dark">Home</span>
+                                  </div>
+                                </a>  
+                                </li>
+
+                      
+                                <li><!-- this is the first home -->
+                                  <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                    <div class="svg">
+                                      <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                    </div>
+                                    <div class="span ml-4">
+                                      <span class="text-sm font-medium text-dark">Home</span>
+                                    </div>
+                                  </a>  
+                                  </li>
+
+                      
+                                  <li><!-- this is the first home -->
+                                    <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                      <div class="svg">
+                                        <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                      </div>
+                                      <div class="span ml-4">
+                                        <span class="text-sm font-medium text-dark">Home</span>
+                                      </div>
+                                    </a>  
+                                    </li>
+
+                      
+                                    <li><!-- this is the first home -->
+                                      <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                        <div class="svg">
+                                          <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                        </div>
+                                        <div class="span ml-4">
+                                          <span class="text-sm font-medium text-dark">Home</span>
+                                        </div>
+                                      </a>  
+                                      </li>
+
+                      
+                                      <li><!-- this is the first home -->
+                                        <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                          <div class="svg">
+                                            <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                          </div>
+                                          <div class="span ml-4">
+                                            <span class="text-sm font-medium text-dark">Home</span>
+                                          </div>
+                                        </a>  
+                                        </li>
+                      
+                                        <li><!-- this is the first home -->
+                                          <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                            <div class="svg">
+                                              <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                            </div>
+                                            <div class="span ml-4">
+                                              <span class="text-sm font-medium text-dark">Home</span>
+                                            </div>
+                                          </a>  
+                                          </li>
+
+                      
+                                          <li><!-- this is the first home -->
+                                            <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                              <div class="svg">
+                                                <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                              </div>
+                                              <div class="span ml-4">
+                                                <span class="text-sm font-medium text-dark">Home</span>
+                                              </div>
+                                            </a>  
+                                            </li>
+
+                      
+                                            <li><!-- this is the first home -->
+                                              <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                <div class="svg">
+                                                  <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                </div>
+                                                <div class="span ml-4">
+                                                  <span class="text-sm font-medium text-dark">Home</span>
+                                                </div>
+                                              </a>  
+                                              </li>
+
+                      
+                                              <li><!-- this is the first home -->
+                                                <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                  <div class="svg">
+                                                    <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                  </div>
+                                                  <div class="span ml-4">
+                                                    <span class="text-sm font-medium text-dark">Home</span>
+                                                  </div>
+                                                </a>  
+                                                </li>
+                      
+                                                <li><!-- this is the first home -->
+                                                  <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                    <div class="svg">
+                                                      <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                    </div>
+                                                    <div class="span ml-4">
+                                                      <span class="text-sm font-medium text-dark">Home</span>
+                                                    </div>
+                                                  </a>  
+                                                  </li>
+
+                      
+                                                  <li><!-- this is the first home -->
+                                                    <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                      <div class="svg">
+                                                        <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                      </div>
+                                                      <div class="span ml-4">
+                                                        <span class="text-sm font-medium text-dark">Home</span>
+                                                      </div>
+                                                    </a>  
+                                                    </li>
+                      
+                                                    <li><!-- this is the first home -->
+                                                      <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                        <div class="svg">
+                                                          <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                        </div>
+                                                        <div class="span ml-4">
+                                                          <span class="text-sm font-medium text-dark">Home</span>
+                                                        </div>
+                                                      </a>  
+                                                      </li>
+
+                      
+                                                      <li><!-- this is the first home -->
+                                                        <a href="#" class="px-4 py-2 flex items-center text-dark hover:bg-gray-400 hover:bg-opacity-25 focus:text-red focus:bg-gray-400 focus:bg-opacity-75 ">
+                                                          <div class="svg">
+                                                            <svg  xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><title>bxs-home</title><g fill="currentColor"><path d="M21.743 12.331l-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 1 0 .743-1.669z"></path></g></svg>
+                                                          </div>
+                                                          <div class="span ml-4">
+                                                            <span class="text-sm font-medium text-dark">Home</span>
+                                                          </div>
+                                                        </a>  
+                                                        </li>
+          
+      </ul>
+     </div>
+
+     
+     <div class="overflow-y-auto bg-middle sidebar-spotify px-16 pt-6 flex-1">
+
+     <div class="bar text-black flex justify justify-between">
+       <span class="font-semibold">Today</span>
+       <span class="float-right font-medium">MANAGE</span>
+     </div>
+
+     <div class="card-wrapper mt-6 grid grid-cols-5 gap-5">
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset0.jpg" alt="">
+        <span class="text-base font-medium">My favourite Vfx artists | Top 10 Vfx artists </span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">Vfx with Mukul</span>
+        <span class="text-xs text-dark font-medium">1.2K Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+    
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+      <a href="#" class="first-card flex flex-col relative" id="magic">
+        <img src="./assets/asset1.jpg" alt="">
+        <span class="text-base font-medium">Surprising People with Justin Bieber</span>
+        <span class="text-xs text-dark font-medium mt-1 hover:text-black">David Dobrik</span>
+        <span class="text-xs text-dark font-medium">15M Views | 3 days ago  </span>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-one">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_watch_later_24px</title><g fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm4.2 14.2L11 13V7h1.5v5.2l4.5 2.7-.8 1.3z"></path></g></svg>
+        </div>
+        <div class="p-1 text-white bg-black bg-opacity-75 absolute" id="button-two">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><title>ic_playlist_add_24px</title><g fill="currentColor"><path d="M14 10H2v2h12v-2zm0-4H2v2h12V6zm4 8v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zM2 16h8v-2H2v2z"></path></g></svg>
+        </div>
+      </a>
+
+
+     </div>
+     </div>
      
    </div>
  </div>
